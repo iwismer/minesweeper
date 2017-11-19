@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!--Isaac Wismer
+
+-->
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css" type="text/css"/>
+
+        <meta charset="utf-8"/>
+        <title>Isaac's Minesweeper</title>
+        <style type="text/css">
+            #canvas {
+                text-align: center;
+            }
+            body {
+                color: #000;
+            }
+            .TitleText {
+                font-family: Georgia, "Times New Roman", Times, serif;
+                font-size: 36px;
+                font-style: normal;
+                line-height: 10px;
+                font-weight: bold;
+                font-variant: normal;
+                text-transform: none;
+                color: #000;
+                letter-spacing: normal;
+                text-align: center;
+                word-spacing: normal;
+                padding-top: 10px;
+                padding-right: 0px;
+                padding-bottom: 10px;
+                padding-left: 0px;
+            }
+        </style>
+    </head>
+    <body oncontextmenu="return false;">
+        <table width="250" height="359" border="1" align="center" class="background">
+            <tr>
+                <td id="table"><h1 align="center" class="TitleText">Isaac's </h1>
+                    <h1 align="center" class="TitleText">Minesweeper</h1></td>
+            </tr>
+            <tr>
+                <td height="254" id="table"><canvas id="canvas" width="250" height="250"></canvas></td>
+            </tr>
+        </table>
+        <script type="text/javascript" src="JavaScript.js"></script>
+    </body>
+</html>
